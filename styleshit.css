@@ -1,0 +1,41 @@
+.header {
+  padding: 50px;
+  text-align: center;
+  background:  #FFC300;
+  background-repeat: repeat-x;
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.side {
+  float: left;
+  -ms-flex: 1%; /* IE10 */
+  flex: 1%;
+  background-color:white;
+  padding: 1px;
+}
+.container-sm{
+  text-align: justify;
+}
+
+.main {
+  float: right;
+  -ms-flex: 1%;
+  flex: 1%;
+  background-color: white;
+  padding: 1px;
+}
+
+.footer {
+  padding: 15px;
+  text-align: center;
+}
